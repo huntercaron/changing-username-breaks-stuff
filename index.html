@@ -121,7 +121,7 @@
                 color: pink;
                 font-family: "Comic Sans MS", cursive, sans-serif;
                 font-size: 2rem;
-                top: -20%;
+                top: -15%;
                 position: fixed;
 	            display: block;
                 animation: moveit linear infinite 150s;
@@ -191,14 +191,14 @@
      function addShit() {
 
          for (var i = 0; i < 10; i++) {
-             var leftP = Math.floor(Math.random() * (100 - 0 + 1));
+             var leftP = Math.floor(Math.random() * (90 - 0 + 1));
              var speed = Math.floor(Math.random() * (80 - 10 + 1)) + 10;
              var delay = Math.floor(Math.random() * (80 - 0 + 1));
              stuffBox.innerHTML = stuffBox.innerHTML + `<img class="item" style="left:${leftP}%; animation-delay: ${delay/5}s; animation-duration: ${speed}s" src="ysdn.png"/>`;
          }
 
          for (var i = 0; i < memes.length; i++) {
-             var leftP = Math.floor(Math.random() * (100 - 0 + 1));
+             var leftP = Math.floor(Math.random() * (90 - 0 + 1));
              var speed = Math.floor(Math.random() * (80 - 5 + 1)) + 5;
              var delay = Math.floor(Math.random() * (80 - 0 + 1));
              var colour = Math.floor(Math.random() * (colours.length - 0 + 1));
