@@ -102,6 +102,7 @@
             body {
                 margin: 0;
                 overflow: hidden;
+                font-family: "Comic Sans MS", cursive, sans-serif;
             }
 
             iframe {
@@ -117,9 +118,19 @@
                 height: 100vh;
             }
 
+            h1 {
+                text-align: center;
+                color: pink;
+                font-size: 2rem;
+                margin-top: 40vh;
+                opacity: 0;
+                animation: 5s fadeOut;
+            	-webkit-animation: 5s fadeOut;
+            	-moz-animation:  5s fadeOut;
+            }
+
             .item {
                 color: pink;
-                font-family: "Comic Sans MS", cursive, sans-serif;
                 font-size: 2rem;
                 top: -15%;
                 position: fixed;
@@ -142,10 +153,27 @@
                 100%{top:110%}
             }
 
+            @-webkit-keyframes fadeOut{
+                0%{opacity: 1}
+                90%{opacity: 1}
+                100%{opacity: 0}
+            }
+            @keyframes fadeOut{
+                0%{opacity: 1}
+                90%{opacity: 1}
+                100%{opacity: 0}
+            }
+            @-moz-keyframes fadeOut{
+                0%{opacity: 1}
+                90%{opacity: 1}
+                100%{opacity: 0}
+            }
+
         </style>
     </head>
     <body>
         <div class="stuff">
+            <h1>aPriL FoOlz</h1>
         </div>
         <div id="player"></div>
 
