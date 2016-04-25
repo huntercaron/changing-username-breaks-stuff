@@ -1,2 +1,6 @@
-# huntercaron.github.io
-Trying to figure out if I broke my site by changing my github name
+Personal Site: huntercaron.com
+================
+
+This is my personal website version 3.1
+
+Hopefully you enjoy it and feel free to ask me and questions or tell me how bad my code is!
